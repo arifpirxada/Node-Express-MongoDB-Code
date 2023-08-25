@@ -10,8 +10,8 @@ app.set("view engine", "hbs")
 /* The below method allows you to change the name 
 of hbs containing folder - views and it's path */
 
-const templatePath = path.join(__dirname, "../template")
-app.set("views", templatePath)
+// const templatePath = path.join(__dirname, "../template")
+// app.set("views", templatePath)
 
 
 app.get("/", (req, res) => {
