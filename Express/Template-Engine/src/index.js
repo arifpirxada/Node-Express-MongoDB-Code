@@ -14,17 +14,21 @@ of hbs containing folder - views and it's path */
 const templatePath = path.join(__dirname, "../templates/views")
 app.set("views", templatePath)
 
-
-
 const partialsPath = path.join(__dirname, "../templates/partials")
 hbs.registerPartials(partialsPath)
-
-
 
 app.get("/", (req, res) => {
     res.render("index", {
         changeMe: "Color Changer App"
     })
+})
+
+app.get("/about/*", (req, res) => {
+    res.send("Write about correctly")
+})
+
+app.get("*", (req, res) => {
+    res.send("Page Not Found")
 })
 
 app.listen(8000, "127.0.0.1", () => {
