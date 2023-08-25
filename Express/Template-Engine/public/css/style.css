@@ -42,3 +42,12 @@ body {
 	padding: 1%;
 	border-radius: 2px;
 }
+
+#expressFooter {
+	background: #3030a4;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1%;
+}
