@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: white;
+	color: black;
+}
+
+.btn {
+	background-color: #1700ff;
+	padding: 2vh 3vw;
+	margin-left: 45vw;
+	font-family: system-ui;
+	font-weight: 500;
+	margin-top: 4vh;
+	color: white;
+	border-radius: 2%;
+}
+
+.btn:hover {
+	background-color: #5249b1;
+}
+
+#box {
+	background: red;
+	height: 40vh;
+	width: 60vw;
+	margin-left: 19vw;
+	margin-top: 15vh;
+	border-radius: 1%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#box p {
+	color: #fff;
+	background: black;
+	width: fit-content;
+	padding: 1%;
+	border-radius: 2px;
+}
