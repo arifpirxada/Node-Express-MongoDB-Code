@@ -1,0 +1,14 @@
+{
+  "name": "connectnode",
+  "version": "1.0.0",
+  "description": "Making connection to MongoDB and performing crud operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arifpirxada",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}
